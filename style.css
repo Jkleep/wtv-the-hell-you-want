@@ -1,0 +1,88 @@
+body{background-color: #464646;}
+
+p{
+border: 2px solid #000000;
+border-radius: 10px;
+background-color: rgb(230, 230, 230);
+font-size: 25px;
+padding: 10px;
+display: flex;
+justify-content: center;
+
+}
+
+h1{
+    font-family: "Luckiest Guy", cursive;
+    border-radius: 10px;
+    background:#038eff;
+    color: #efff13;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#000000;
+    text-align: center;
+    font-size:35px;
+    padding: 15px;
+}
+    .cover{
+width: 400px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+    }
+  .buttonOne{
+   border: 3px solid #000000;
+   border-radius: 10px;
+  font-size: 40px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    input.answer1,
+    input.answer2 {
+      border: 2px solid #000000;
+      border-radius: 10px;
+      padding:35px;
+      font-size: 25px;  
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    button:hover{
+      background-color: #b9b9b9;
+      }
+    
+      .message {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .patrick,
+    .squidward,
+    .spongebob,
+    .mrkrabs {
+      width: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      display: none;
+          }
+
+    
+@media screen and (max-width: 600px) {
+    body {
+      background-color: #464646;
+    }
+  }
+  
